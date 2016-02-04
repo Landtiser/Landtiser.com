@@ -1,0 +1,95 @@
+.logo {
+  float: left;
+
+  width: 50%;
+  height: 75px;
+}
+
+.logo__link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  margin: 0.5em 0.5em 0.5em 1em;
+
+  text-decoration: none;
+}
+
+.logo__img {
+  width: 60px;
+  height: 60px;
+}
+
+/* SVG Path Colors for Logo */
+
+.logo__background {
+  fill: #ffffff;
+}
+
+.logo__top-ring {
+  fill: #49bbda;
+}
+
+.logo__fill {
+  fill: #00728c;
+}
+
+.logo__top-c {
+  fill: #ffffff;
+}
+
+.logo__bottom-ring {
+  fill: #49bbda;
+}
+
+.logo__bottom-c {
+  fill: #ffffff;
+}
+
+/* SVG Path Colors for Logo Rollover */
+
+.logo__img:hover .logo__top-ring {
+  fill: #00728c;
+}
+
+.logo__img:hover .logo__fill {
+  fill: #49bbda;
+}
+
+.logo__img:hover .logo__bottom-ring {
+  fill: #00728c;
+}
+
+.logo__text {
+  vertical-align: middle;
+
+  display: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7em;
+  color: #777777;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+@media screen and (min-width: 40.0625em) {
+
+  .logo__text {
+    display: inline-block;
+  }
+
+}
+
+.landing-header {
+  display: block;
+  position: relative;
+
+  height: auto;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 40.0625em) {
+
+    .s-navigation_expanded {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px 15px 15px 15px;
+    border: 1px solid #00728c;
+
+    background: #ffffff;
+
+    z-index: 10;
+  }
+
+}

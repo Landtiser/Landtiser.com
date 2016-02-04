@@ -1,0 +1,154 @@
+.card-deck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  width: 100%;
+
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.card-deck__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  width: 70%;
+  margin: 20px;
+  border-color: #00728c #c4c4c4 #c4c4c4;
+  border-radius: 0 10px 10px;
+  border-style: solid;
+  border-width: 5px 1px 1px;
+  background: #ffffff;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  white-space: wrap;
+}
+
+.card-deck__image {
+  display: block;
+  position: relative;
+
+  width: 210px;
+  margin: 10px auto 0;
+}
+
+.card-deck__image_tall-left {
+  float: left;
+
+  height: 300px;
+  margin: 0 20px 10px 0;
+}
+
+.card-deck__image_tall-right {
+  float: right;
+
+  height: 300px;
+  margin: 0 0 10px 20px;
+}
+
+.card-deck__image_up {
+  float: left;
+
+  height: 270px;
+  margin: 0 0 10px 20px;
+}
+
+.card-deck__title {
+  width: 100%;
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+.card-deck__text {
+  flex: 1 0 auto;
+
+  padding: 0 20px;
+
+  color: #666666;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.card-deck__card_single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.card-deck__card_double {
+  padding: 20px 2% 10px 2%;
+}
+
+.card-deck__card_about {
+  display: block;
+  padding: 0 10px;
+}
+
+.card-deck__publish-logo {
+  display: block;
+
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 40.0625em) {
+
+  .card-deck__card {
+    width: 300px;
+    padding-top: 10px;
+  }
+
+  .card-deck__card_single {
+    width: 90%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .card-deck__card_double {
+    float: left;
+
+    width: 43%;
+    margin: 20px 1%;
+      padding: 20px 1% 10px 1%;
+  }
+
+  .card-deck__title {
+    margin-top: 0;
+  }
+
+  .card-deck__publish-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: auto;
+    width: 50%;
+
+    justify-content: center;
+
+    text-decoration: none;
+  }
+
+  .card-deck__publish-logo {
+    display: block;
+
+    width: 100%;
+    max-width: 388px;
+    height: auto;
+    max-height: 46px;
+    margin: 0 auto 20px;
+  }
+
+}

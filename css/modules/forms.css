@@ -1,0 +1,125 @@
+.humans {
+  display: none;
+}
+
+label {
+  margin: 10px 0 0 0;
+
+  display: block;
+  padding: 5px 0;
+
+  font-family: "Montserrat",sans-serif;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, textarea {
+  width: 98%;
+  height: 35px;
+  border: 1px solid #dedede;
+  margin-top: 3px;
+  padding: 1%;
+
+  background: #efefef;
+  color: #3a3a3a;
+
+  font-size: 0.9em;
+  font-family: "Montserrat",sans-serif;
+
+  transition: all 0.3s ease-in-out 0s;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 3px #00728c;
+}
+
+textarea {
+  min-height: 220px;
+  padding-top: 10px;
+}
+
+.form-half {
+  width: 98%;
+}
+
+#success, #error {
+  display: none;
+}
+
+#success {
+  border: 2px solid #00728c;
+  padding: 1em;
+  margin: 0 1em;
+  text-align: center;
+}
+
+#error {
+  border: 2px solid #ff3333;
+  padding: 1em;
+  text-align: center;
+  margin: 0 1em;
+}
+
+#footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 40px;
+  padding: 0 5%;
+
+  flex-wrap: wrap;
+}
+
+#submit {
+  position: relative;
+
+  display: block;
+  height: 40px;
+  width: 100%;
+  max-width: 300px;
+  margin: 30px auto;
+  padding: 0;
+
+  background-color: #00728c;
+  border: 1px solid #a7a7a7;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #42badb;
+}
+
+@media screen and (min-width: 40.0625em) {
+
+  .form-half {
+    position: relative;
+    float: left;
+
+    width: 46%;
+    padding: 2%;
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-left: 2%;
+  }
+
+  .form-half label {
+    margin-left: 0;
+  }
+
+  textarea {
+    position: relative;
+
+    display: block;
+    width: 95%;
+    margin: 3px auto 0;
+    padding: 10px .5%;
+  }
+
+}
